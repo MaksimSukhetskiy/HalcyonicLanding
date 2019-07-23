@@ -265,7 +265,7 @@ footer {
     padding: 40px 0;
     position: relative;
     display: block;
-    background: black; 
+    background: black;
 }
 
 .footer-info {
@@ -328,4 +328,65 @@ footer {
     border: 2px solid #333;
     transition: all .2s ease-in-out;
     color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo-block {
+    margin: 0 0 0 20px;
+  }
+
+  .gallery-block {
+    height: 200px;
+  }
+
+  .menu-block {
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+
+  .menu-block__items {
+    margin: 0 20px 0 20px;
+  }
+
+  .items {
+    display: block;
+    margin: 15px 0;
+  }
+
+  .title-block__title {
+    width: 300px;
+    font-size: 40px;
+  }
+
+  .intro {
+    margin: 70% auto;
+  }
+
+  .sub-title-block__text {
+    font-size: 18px;
+  }
+
+  .info-block-text {
+    font-size: 18px;
+  }
+
+  .content-section-text {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1400px) {
+  .menu-block {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+
+  .menu-block__items {
+    margin-right: 30px;
+  }
+
+  .gallery-block {
+    height: 300px;
+  }
 }
